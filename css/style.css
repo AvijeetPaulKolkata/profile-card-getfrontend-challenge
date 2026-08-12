@@ -3,13 +3,27 @@ body {
   justify-self: center;
   padding-top: 191px;
   font-family: "Noto Sans", sans-serif;
-  height: 100vh;
+  height: 752px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(to bottom, #f9fafb, #d2d6db);
 }
+@media (max-width: 768px) {
+  body {
+    height: 796px;
+  }
+}
+@media (min-width: 768px) and (max-width:1000px) {
+  body {
+    height: 1008px;
+  }
+  .user-details .designation {
+    margin: 0px 0px;
+}
+}
+  
 
 * {
   box-sizing: border-box;
@@ -51,7 +65,9 @@ body {
   font-weight: 500;
   color: rgb(23 23 23);
   padding: 0px;
-  margin: 0px;
+  margin-top: 2px;
+  margin-bottom:2px;
+  
 }
 .user-details .designation {
   font-size: 14px;
@@ -97,11 +113,13 @@ body {
   display: flex;
   flex-direction: row;
   gap: 16px;
+  margin-top: 7px;
   align-items: center;
+  margin-bottom: 7px;
 }
 .social i.fa-brands::before {
   color: rgb(67, 56, 202);
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   margin: 8px;
 }
