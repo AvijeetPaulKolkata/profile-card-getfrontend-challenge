@@ -4,4 +4,4 @@ This project is a basic **HTML and CSS challenge** from [GreatFrontEnd](https://
 
 **Challenge:** [Responsive profile Card with HTML & CSS](https://www.greatfrontend.com/projects/s/responsive-profile-card-design-with-html-and-css-39a3cd58 )
 
-**Live Demo:** https://port10.cldprojects.uk/profile-card
+**Live Demo:** https://getfrontend.avijeetpaul.com/HTML-Profile-Card/
